@@ -659,7 +659,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.TestCodePush;
 				PRODUCT_NAME = TestCodePush;
 				PROVISIONING_PROFILE = "";
 			};
@@ -683,7 +683,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.TestCodePush;
 				PRODUCT_NAME = TestCodePush;
 				PROVISIONING_PROFILE = "";
 			};
