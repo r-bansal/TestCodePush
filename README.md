@@ -1,1 +1,1 @@
-# TestCodePush
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=57757356cbc623010099eed5&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/57757356cbc623010099eed5/build/latest)
