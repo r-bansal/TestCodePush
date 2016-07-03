@@ -22,7 +22,7 @@ class TestCodePush extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Natively!
+          Testing CI Integration!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
