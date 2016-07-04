@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+echo Post Build Code Push
 node -v
 npm -v
 npm cache clean
