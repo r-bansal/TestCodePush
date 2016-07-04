@@ -4,9 +4,8 @@ node -v
 npm -v
 npm cache clean
 echo password | sudo -S npm install -g code-push-cli@1.12.0-beta
-code-push whoami
-echo $Code_Push
-code-push login --accessKey $Code_Push
-cd $BUDDYBUILD_WORKSPACE
-code-push release-react TestCodePush android
-code-push logout
+echo password | sudo -S code-push whoami
+echo password | sudo -S code-push login --accessKey $Code_Push
+echo password | sudo -S cd $BUDDYBUILD_WORKSPACE
+echo password | sudo -S code-push release-react TestCodePush android
+echo password | sudo -S code-push logout
