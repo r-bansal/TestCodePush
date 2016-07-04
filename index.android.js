@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import codePush from 'react-native-code-push';
 import {
   AppRegistry,
   StyleSheet,
@@ -13,11 +14,14 @@ import {
 } from 'react-native';
 
 class TestCodePush extends Component {
+  componentDidMount() {
+    codePush.sync();
+  }
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to Boooyahh!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
