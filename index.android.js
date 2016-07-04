@@ -21,7 +21,7 @@ class TestCodePush extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to Boooyahh!
+          Welcome to Boooyaaaakaaah!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
